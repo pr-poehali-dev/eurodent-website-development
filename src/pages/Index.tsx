@@ -1,4 +1,3 @@
-import { Helmet } from "react-helmet";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
@@ -12,11 +11,6 @@ import { Tooth, Search, Stethoscope, Microscope, Medal, MapPin } from "lucide-re
 const Index = () => {
   return (
     <>
-      <Helmet>
-        <title>ЕвроДент - Стоматологическая клиника в Москве</title>
-        <meta name="description" content="Современная стоматологическая клиника ЕвроДент предлагает полный спектр услуг для здоровья вашей улыбки. Запишитесь на консультацию уже сегодня!" />
-      </Helmet>
-      
       <Navbar />
       
       <main>
